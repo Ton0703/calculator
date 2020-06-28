@@ -1,82 +1,62 @@
 export default [
   {
-    value: "AC",
-    type: "function",
+    value: "AC"
   },
   {
-    value: "±",
-    type: "function",
+    value: "±"
   },
   {
-    value: "%",
-    type: "function",
+    value: "%"
   },
   {
-    value: "÷",
-    type: "operator",
+    value: "÷"
   },
   {
-    value: "7",
-    type: "number",
+    value: "7"
   },
   {
-    value: "8",
-    type: "number",
+    value: "8"
   },
   {
-    value: "9",
-    type: "number",
+    value: "9"
   },
   {
     value: "x",
-    type: "operator",
   },
   {
-    value: "4",
-    type: "number",
+    value: "4"
   },
   {
-    value: "5",
-    type: "number",
+    value: "5"
   },
   {
-    value: "6",
-    type: "number",
+    value: "6"
   },
   {
-    value: "-",
-    type: "operator",
+    value: "-"
   },
   {
-    value: "1",
-    type: "number",
+    value: "1"
   },
   {
-    value: "2",
-    type: "number",
+    value: "2"
   },
   {
-    value: "3",
-    type: "number",
+    value: "3"
   },
   {
-    value: "+",
-    type: "operator",
+    value: "+"
   },
   {
-    value: "0",
-    type: "number",
+    value: "0"
   },
   {
-    value: "0",
-    type: "number",
+    value: "0"
   },
   {
-    value: ".",
-    type: "number",
+    value: "."
   },
   {
-    value: "=",
-    type: "operation",
+    value: "="
   },
 ];
