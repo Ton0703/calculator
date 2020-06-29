@@ -19,6 +19,7 @@ function App() {
         setOutput((output * -1).toString());
         break;
       case "%":
+        if(output === 0) return;
         setOutput((output / 100).toString());
         break;
       case ".":
@@ -60,7 +61,9 @@ function App() {
         className="output"
         style={{ fontSize: output.length > 13 ? "2rem" : "3rem" }}
       >
+        <span>
         {output}
+        </span>
       </div>
       <div className="input">
         {Buttons.map((item, index) => (
